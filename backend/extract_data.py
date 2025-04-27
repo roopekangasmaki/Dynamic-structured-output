@@ -3,6 +3,7 @@ from google.genai import types
 from pydantic import create_model
 from typing import Optional
 from datetime import date, time, datetime
+import json
 
 def prepare_schema_model(schema_json):
     """

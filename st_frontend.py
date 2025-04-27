@@ -70,6 +70,7 @@ def main():
         st.write("Files uploaded successfully!")
     st.header("Schema Editor")
     st.write("Define the fields you want to extract from your PDF file(s). " \
+            "Language can be anything. " \
             "Field is field name, type is type of field, " \
             "and description can be used to provide additional information. " \
             "If more than one file is uploaded, file_name column is automatically added.")
